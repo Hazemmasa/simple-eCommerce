@@ -1,0 +1,35 @@
+.product{
+flex-basis:calc(33.3331% - 20px) ;
+
+}
+.product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+.imgProduct{
+    width: 100%;
+
+}
+.description{
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.addToCartBttn {
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    color:black
+  }
+  
+  .addToCartBttn:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+  }

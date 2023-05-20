@@ -1,0 +1,16 @@
+.shop{
+
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.shopTitle{
+text-align: center;
+padding-top: 40px;
+}
+.products{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
